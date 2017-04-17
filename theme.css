@@ -1,0 +1,129 @@
+﻿*{
+  box-sizing:border-box;
+}
+html,body{
+  height:100%;
+  overflow:hidden;
+  margin:0px;
+}
+body{
+  text-align:center;
+  display:block;
+  font-family:KaiTi,Microsoft Yahei,Monospace;
+  overflow:auto;
+  background:url("lightsource.png") no-repeat center center;
+}
+nav{
+  background-color: rgb(231, 231, 231);
+  border-radius:4px;
+  padding:4px;
+  width:36px;
+  margin:10px;
+}
+.logo img{
+  width:100%;
+}
+.content{
+  padding-top:30px;
+  margin-left:700px;
+}
+.content div{
+  background-color:rgba(141,139,137,0.8);
+  border-radius:12px;
+  padding:20px;
+  height:400px;
+}
+.list{
+  list-style:none;
+  text-align:left;
+  padding:0px 20px 0px 40px;
+  font-size:25px;
+  line-height:150%;
+  color:#fff;
+}
+.list span{
+  font-size:40px;
+  line-height:150%;
+}
+.buttonifo{
+  padding:40px 50px 10px;
+}
+
+.moreifo{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background:rgba(141,139,137,0.8);
+  display:none;
+}
+.textpanel{
+  margin:0px 100px;
+  background:#fff;
+  height:100%;
+  border-radius:10px;
+  position:relative;
+  padding-top:10px;
+}
+#back{
+  height:40px;
+  width:100px;
+  background:#fff;
+  border:none;
+  outline:none;
+  color:blue;
+  position:absolute;
+  right:10px;
+  bottom:10px;
+}
+#itemhead{
+  font-size:40px;
+}
+#item{
+  text-align:left;
+  margin:20px 80px;
+}
+
+.icon-bar{
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  margin:3px;
+  background-color: rgb(0, 0, 0);
+}
+.container{
+  width:100%;
+  margin:0px;
+  padding:0px 70px;
+}
+.halfcontainer{
+  width:600px;
+  float:left;
+  margin:0px;
+}
+.flclear{
+  clear:both;
+}
+.roundbotton{
+  height:100px;
+  width:100px;
+  margin:0 20px;
+  border-radius:50%;
+  outline:none;
+  border:none;
+  background-color: rgba(194, 192, 184, 0.8);
+  box-shadow: 0 0 20px 2px rgb(171, 229, 229);
+  font-family: Microsoft Yahei,KaiTi,Monospace;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+.notdisplay{
+  display:none;
+}
+.texttype{
+  font-family:Microsoft Yahei,KaiTi,Monospace;
+  font-size:25px;
+  margin:20px 40px;
+}
